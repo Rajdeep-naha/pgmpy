@@ -1,6 +1,7 @@
 import itertools
 import xml.etree.ElementTree as etree
 
+import networkx as nx
 import numpy as np
 
 from pgmpy.factors.discrete import TabularCPD
